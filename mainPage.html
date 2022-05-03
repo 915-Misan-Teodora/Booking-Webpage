@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Booking</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <!-- materialize css & js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- material icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Booking</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#popular">Popular Places</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#search">Search</a>
+    </li>
+    <li>
+      <a href="#popular">Popular Places</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <!-- Section: Search -->
+  <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search Destinations</h3>
+          <div class="input-field">
+            <input class="white grey-text autocomplete" placeholder="Where are you going?" type="text" id="autocomplete-input">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Hotels -->
+  <section id="popular" class="section section-hotels scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center teal-text">Popular Places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="imgHotels" src="https://hello-hotels-bucuresti.continentalhotels.ro/wp-content/uploads/sites/9/2021/02/Hello-Hotels-intrare_2.jpg" alt="">
+              <span class="card-title">Hello Hotels</span>
+            </div>
+            <div class="card-content">
+              <p>Hello Hotels has opened a new chapter in Romanian hotel industry, being the first 2-star hotel of Continental Hotels chain.</p>
+              <div class="row">
+                <div class="col s12">
+                  <a href="https://www.facebook.com/HelloHotels"><i class="material-icons small teal-text">facebook</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="imgHotels" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2017_18/1987311/170503-hotel-california-baja-mexico-njs-909a-1987311.jpg" alt="">
+              <span class="card-title">California Hotel</span>
+            </div>
+            <div class="card-content">
+              <p>Located just a short walk from Greyhound Bus Station, California Hotel & Casino offers guests a convenient base while visiting Las Vegas.</p>
+              <div class="row">
+                <div class="col s12">
+                  <a href="https://www.facebook.com/PalmSpringsHotelCalifornia"><i class="material-icons small teal-text">facebook</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="imgHotels" src="https://www.hotel-board.com/picture/ramada-plaza-bucharest-hotel-1458758.jpg" alt="">
+              <span class="card-title">Ramada Plaza Bucharest Hotel</span>
+            </div>
+            <div class="card-content">
+              <p>Our Ramada Plaza Bucharest Convention Center hotel is the perfect place to relax and refresh during your stay.</p>
+              <div class="row">
+                  <a href="https://www.facebook.com/RamadaNorth"><i class="material-icons small teal-text">facebook</i></a>
+              </div>
+            </div>
+          </div>
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1
+            &version={graph-api-version}
+            &appId={your-facebook-app-id}
+            &autoLogAppEvents=1" nonce="FOKrbAYI">
+          </script>
+
+          <!-- Your like button code -->
+          <div class="fb-like" data-href="https://www.your-domain.com/your-page.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <a href="mailto:teodora.misan@yahoo.com" class="btn btn-large grey darken-3">CONTACT ME</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Contact -->
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel teal white-text center">
+            <i class="material-icons medium">email</i>
+            <h5>Contact Us For Booking</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus.</p>
+          </div>
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h4>Location</h4>
+            </li>
+            <li class="collection-item">Booking Agency</li>
+            <li class="collection-item">Strada Avram Iancu 492-500, Florești 407280</li>
+            <li class="collection-item">Romania</li>
+          </ul>
+        </div>
+
+
+
+        <!-- Google Maps API -->
+        <div class="col s12 m6">
+          <div id="map" style="width:100%;height:480px;"></div>
+
+          <script>
+            function myMap() {
+              var mapProp = {
+                center: new google.maps.LatLng(46.7712, 23.6236),
+                zoom: 7,
+              };
+              var map = new google.maps.Map(document.getElementById("map"), mapProp);
+            }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-YzdoAIU7rLngGyDDIWsThJijIiwWg2Y&callback=myMap"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
