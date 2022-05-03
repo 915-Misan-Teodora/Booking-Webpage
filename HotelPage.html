@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/scripts.js">
+
+    </script>
+    <!-- materialize css & js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Booking</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a class="waves-effect waves-light white black-text btn" href="login.html">Login</a></li>
+              <li><a class="waves-effect waves-light black white-text btn" href="signup.html">Sign-up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="#search">Search</a>
+      </li>
+      <li>
+        <a href="#popular">Popular Places</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <div id='hotelSection'>
+
+    </div>
+    <script src='js/HotelComponent.js'></script>
+
+    <footer class="section teal darken-2 white-text center">
+      <p class="flow-text">Booking &copy; 2022</p>
+    </footer>
+
+  </body>
+</html>
